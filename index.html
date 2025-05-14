@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+ <nav class="navbar navbar-expand-lg bg-body-light">
+  <div class="container">
+ 
+    <a class="navbar-brand" href="#">
+      <img src="./Logo.png" alt="Logo" width="114.91" height="33.99">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div class="d-flex flex-column flex-lg-row align-items-center gap-5 ms-5">
+        <a class="nav-link" href="#Destinations">Destinations</a>
+        <a class="nav-link" href="#Hotels">Hotels</a>
+        <a class="nav-link" href="#Flights">Flights</a>
+        <a class="nav-link" href="#Bookings">Bookings</a>
+        <a class="nav-link text-black text-decoration-none" href="#">Login</a>
+        <a class="btn border border-dark text-dark bg-white" href="#">Signup</a>
+        <div class="dropdown me-3">
+          <button class="btn btn-outline-secondary dropdown-toggle border-0" type="button" id="languageDropdown"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            EN
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="#">EN</a></li>
+            <li><a class="dropdown-item" href="#">UR</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Text Column (Left) -->
+      <div class="col-md-6">
+        <h5 class="text-danger fw-bold">Best Destinations around the world</h5>
+        <h1 class="text-dark fw-bold">
+          Travel, enjoy<br>
+          and live a new<br>
+          and full life
+        </h1>
+        <p>
+          Built Wicket longer admire do barton vanity itself do in it.<br>
+          Preferred to sportsmen it engrossed listening. Park gate<br>
+          sell they west hard for the.
+        </p>
+
+        <!-- Buttons -->
+        <div class="d-flex gap-3 flex-wrap">
+          <input type="button" value="Find out more" class="btn btn-warning" />
+          <button class="btn btn-light d-flex align-items-center gap-2 px-3 py-2">
+            <img src="./Play button.png" alt="Play Demo" width="40" height="40" />
+            Play Demo
+          </button>
+        </div>
+      </div>
+
+      <!-- Image Column (Right) -->
+      <div class="col-md-6 text-center">
+        <img src="./Traveller 1.png" alt="Traveler" class="img-fluid" />
+      </div>
+    </div>
+  </div>
+</header>
+ <!-- Headings Centered -->
+<div class="text-center my-5">
+  <h5  class="text-secondary">CATEGORY</h5>
+  <h1 class="fw-bold text-dark">We Offer Best Services</h1>
+</div>
+
+<!-- Services Grid -->
+<div id="Hotels" class="container">
+  <div class="row justify-content-center g-4">
+    <div class="col-md-3">
+      <div class="text-center p-3 service-card">
+        <img src="./Group 48.png" alt="Weather Icon" class="service-img mb-3">
+        <h3 class="fs-4 text-black">Calculated Weather</h3>
+        <p class="fs-6 text-secondary">Built Wicket longer <br> admire do barton <br> vanity itself do in it.</p>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="text-center p-3 service-card">
+        <img src="./plane.png" alt="Flight Icon" class="service-img mb-3">
+        <h3 class="fs-4 text-black">Best Flights</h3>
+        <p class="fs-6 text-secondary">Engrossed listening. <br> Park gate sell they <br> west hard for the.</p>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="text-center p-3 service-card">
+        <img src="./Group 50.png" alt="Events Icon" class="service-img mb-3">
+        <h3 class="fs-4 text-black">Local Events</h3>
+        <p class="fs-6 text-secondary">Barton vanity itself do <br> in it. Preferred to men it <br> engrossed listening.</p>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="text-center p-3 service-card">
+        <img src="./Group 49.png" alt="Customization Icon" class="service-img mb-3">
+        <h3 class="fs-4 text-black">Customization</h3>
+        <p class="fs-6 text-secondary">We deliver outsourced <br> aviation services for <br> military customers.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center my-5">
+  <h5 class="text-secondary">Top Selling</h5>
+  <h1  id="Destinations" class="fw-bold text-dark">Top Destinations</h1>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./Rectangle 14.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text ">
+            <span class="pic">Rome, Italy</span>
+            <span class="pic">$5.42k</span>
+          </p>
+          <p class="poc"><img src="./Navigation.png" alt=""> 10 Days Trip</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./Rectangle 14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text ">
+            <span class="pic">London, UK</span>
+            <span class="pic">$4.2k</span>
+          </p>
+          <p class="poc"><img src="./Navigation.png" alt=""> 12 Days Trip</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./Rectangle 14 (1).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">
+            <span class="pic">Full Europe</span>
+            <span class="pic">$15k</span>
+          </p>
+          <p class="poc"> <img src="./Navigation.png" alt=""> 28 Days Trip</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class=" container py-5">
+  <div class="row align-items-center">
+    <!-- Left Section -->
+    <div class="col-md-6">
+      <p class="text-secondary fw-semibold">Easy and Fast</p>
+      <h1 class="fw-bold display-5 mb-4">Book Your Next Trip<br>In 3 Easy Steps</h1>
+
+      <!-- Step 1 -->
+      <div class="d-flex mb-4">
+        <div class="step-icon text-white me-3">
+          <img src="./Group 7.png" alt="Choose" width="47">
+        </div>
+        <div>
+          <h5 class="fw-semibold">Choose Destination</h5>
+          <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur <br>
+             adipiscing elit. Urna, tortor tempus.</p>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="d-flex mb-4">
+        <div class="step-icon text-white me-3">
+          <img src="./Group 12.png" alt="Payment" width="47">
+        </div>
+        <div>
+          <h5 class="fw-semibold">Make Payment</h5>
+          <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur <br>
+             adipiscing elit. Urna, tortor tempus.</p>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="d-flex">
+        <div class="step-icon text-white me-3">
+          <img src="./Group 11.png" alt="Airport" width="47">
+        </div>
+        <div>
+          <h5 class="fw-semibold">Reach Airport on Selected Date</h5>
+          <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur <br>
+             adipiscing elit. Urna, tortor tempus.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div  id="Flights" class="col-md-6 position-relative ps-md-5">
+      <div class="trip-card p-3 shadow rounded-4 bg-white" style="position: relative; z-index: 1;">
+        <img src="./Rectangle 17.jpg" class="w-100 rounded-4 mb-3" style="height: 300px; object-fit: cover;">
+        <h5 class="fw-bold">Trip To Greece</h5>
+        <p class="text-muted mb-2 small">14–29 June | by Robbin jos</p>
+        <div class="d-flex justify-content-start gap-3 mb-2">
+          <img src="./LEAF.png" width="20">
+          <img src="./map icon.png" width="20">
+          <img src="./send.png" width="20">
+        </div>
+        <p class="text-muted small mb-0 d-flex justify-content-between align-items-center">
+          <span><img src="./building 1.png" width="16" class="me-1"> 24 people going</span>
+          <img src="./heart (6) 1.png" width="18" alt="Heart Icon">
+        </p>
+      </div>
+
+      <!-- Floating Rome Progress Card -->
+      <div class="progress-card shadow p-3 bg-white rounded-4 position-absolute" 
+           style="bottom: 40px; right: -20px; width: 230px; z-index: 2;">
+        <div class="d-flex align-items-center mb-2">
+          <img src="./Mask Group.png" class="rounded-circle me-2" width="40" height="40">
+          <div>
+            <p class="mb-0 text-muted small">Ongoing</p>
+            <p class="mb-0 fw-bold">Trip to Rome</p>
+          </div>
+        </div>
+        <div class="progress" style="height: 6px;">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;"></div>
+        </div>
+        <p class="text-muted small mt-1 mb-0"><span class="okay">40% </span>completed</p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="testimonial-section">
+    <!-- Left Heading Content -->
+    <div class="testimonial-left">
+      <h5>Testimonials</h5>
+      <h1>What People Say<br> About Us.</h1>
+      <img src="./Group 61.png" alt="" class="mt-5">
+    </div>
+
+    <!-- Right Card Stack -->
+    <div class="testimonial-cards">
+      <!-- Back Card (Chris Thomas) -->
+      <div class="testimonial-card back-card">
+        <p>“Placeholder testimonial from background card. This space can include other testimonials.”</p>
+        <div class="name">Chris Thomas</div>
+        <div class="role">CEO of Red Button</div>
+      </div>
+
+      <!-- Front Card (Mike Taylor) -->
+      <div class="testimonial-card front-card">
+        <img src="./Image.png" alt="User" class="avatar" />
+        <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. <em>Of believed or diverted no.</em>”</p>
+        <div class="name">Mike Taylor</div>
+        <div class="role">Lahore, Pakistan</div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Brand Logos -->
+  <section class="logo-section">
+  <div class="logo-container">
+    <img src="./image 27.png" alt="Axon Logo" />
+    <img src="./image 28.png" alt="Jetstar Logo" />
+    <img src="./image 29.png" alt="Expedia Logo" />
+    <img src="image 30.png" alt="Qantas Logo" class="pooc">
+    <img src="image 31.png" alt="Alitalia Logo" class="pooc">
+  </div>
+</section>
+
+   <section class="subscribe-section">
+  <div id="Bookings" class="subscribe-box">
+    <img src="./Group 77.png" class="corner-icon" alt="Decorative" />
+    
+    <p class="subscribe-text">
+      Subscribe to get information, latest news and other<br />
+      interesting offers about Jadoo
+    </p>
+
+    <div class="input-group">
+      <div class="input-icon">
+        <img src="./Group 46.png" alt="Email Icon" />
+        <input type="email" placeholder="Your email" />
+      </div>
+      <button>Subscribe</button>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer container">
+    <div class="row justify-content-between">
+      <div class="col-md-3">
+        <div class="footer-logo">Jadoo.</div>
+        <p class="footer-description">Book your trip in minute, get full Control for much longer.</p>
+      </div>
+
+      <div class="col-md-2">
+        <h5>Company</h5>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Mobile</a>
+      </div>
+
+      <div class="col-md-2">
+        <h5>Contact</h5>
+        <a href="#">Help/FAQ</a>
+        <a href="#">Press</a>
+        <a href="#">Affilates</a>
+      </div>
+
+      <div class="col-md-2">
+        <h5>More</h5>
+        <a href="#">Airlinefees</a>
+        <a href="#">Airline</a>
+        <a href="#">Low fare tips</a>
+      </div>
+
+      <div class="col-md-3 text-md-end text-start mt-4 mt-md-0">
+        <div class="social-icons mb-3">
+          <img src="./Social.png" alt="Facebook" />
+          <img src="./Social (1).png" alt="Instagram" />
+          <img src="./Social (2).png" alt="Twitter" />
+        </div>
+        <div class="mb-2 fw-semibold">Discover our app</div>
+        <div class="store-badges">
+          <img src="./Google Play.png" alt="Google Play" />
+          <img src="./Play Store.png" alt="App Store" />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom mt-4">
+      All rights reserved@jadoo.co
+    </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>
