@@ -212,7 +212,7 @@
 @media (max-width: 768px) {
   .corner-icon {
     top: -10px; /* Adjust top position for smaller screens */
-    left: 290px; /* Adjust left position for smaller screens */
+    left: 270px; /* Adjust left position for smaller screens */
     width: 40px; /* Reduce size of the icon */
     height: 40px; /* Reduce size of the icon */
   }
